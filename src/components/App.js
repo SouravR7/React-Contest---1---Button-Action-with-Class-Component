@@ -23,9 +23,8 @@ class App extends Component {
         </button>
         {this.state.hide ? (
           <p id="para">
-            {" "}
             Hello, I've learnt to use the full-stack evaluation tool. This makes
-            me so happy{" "}
+            me so happy
           </p>
         ) : (
           ""
