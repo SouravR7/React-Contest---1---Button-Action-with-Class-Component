@@ -10,7 +10,7 @@ class App extends Component {
   }
   handleClick() {
     this.setState({
-      hide: true
+      hide: !this.state.hide
     });
   }
 
