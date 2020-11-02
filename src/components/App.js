@@ -18,7 +18,6 @@ class App extends Component {
     return (
       <div id="main">
         <button id="click" onClick={() => this.handleClick()}>
-          {" "}
           button
         </button>
         {this.state.hide ? (
